@@ -9,9 +9,7 @@ recog = recognition.SpeakerRecognizer()
 recog.set_feature_option('-lpc -cheb')
 
 name = []
-name = recog.identify_speaker('david1.wav')
-
-
+name = recog.identify_speaker('entry.wav')
 
 dictn = recog.get_speaker_scores()
 print dictn			#Lower the score, closer to the speaker
