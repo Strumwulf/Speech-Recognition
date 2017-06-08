@@ -21,7 +21,6 @@ print smallestNum
 
 if smallestNum < '1.0':
     print 'Hello ' + (name[0]) # Recognized speaker
-    call(["python","train_audio_auto.py", name])
 else:
     print "Sorry, Do I know you?"
     DC = 0
