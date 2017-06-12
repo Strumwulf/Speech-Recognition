@@ -10,3 +10,5 @@ The default location is the working directory where the recog_audio.py and train
 
 The record_audio.py program uses the record.sh file to record audio.  The record.sh files uses the arecord command from the ALSA tools.  
 If you working on a non-linux system record.sh may not work.
+
+The train_audio_multi.py is used to train multiple users at the same time, and can train multiple audio files for each user.
